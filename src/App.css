@@ -1,0 +1,147 @@
+/* h2 {
+  font-size: 18px;
+  line-height: 22px;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+h3 {
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+input {
+  outline: none;
+  border: 1px solid #cdb1fb;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 100%;
+  min-height: 58px;
+  padding-left: 25px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+textarea {
+  outline: none;
+  border: 1px solid #cdb1fb;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 100%;
+  min-height: 193px;
+  padding-top: 20px;
+  padding-left: 25px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+} */
+.App__wrapper {
+}
+
+.app-wrapper {
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  row-gap: 25px;
+  margin: 40px 30px 50px 30px;
+  color: #211536;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.organizerName {
+  display: grid;
+  grid-template-rows: 20px 1fr;
+  row-gap: 25px;
+  align-items: start;
+  justify-items: start;
+}
+
+.organizerName__input {
+  display: grid;
+  grid-template: 1fr 1fr/ 1fr;
+  width: 100%;
+}
+
+.contactDetails__inputs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+}
+
+.generalInformation {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  row-gap: 20px;
+}
+
+.buttonCancelNext {
+  display: grid;
+  grid-template-columns: 285px 285px;
+  column-gap: 15px;
+  font-weight: 600;
+}
+
+.buttonCancel {
+  width: 285px;
+  height: 58px;
+  border: 1px solid #9b63f8;
+  background-color: white;
+  border-radius: 4px;
+}
+.buttonNext {
+  width: 285px;
+  height: 58px;
+  background: #9b63f8;
+  border-radius: 4px;
+  border-style: none;
+  color: #f8f8fe;
+}
+.buttonCancel:hover {
+  border: 1px solid crimson;
+}
+.buttonNext:hover {
+  background: cadetblue;
+}
+
+.error__component {
+  width: 95%;
+  height: 38px;
+  background-color: #fff2f0;
+  border: 1px solid #ffccc7;
+  display: grid;
+  margin: 10px;
+  align-items: center;
+  padding: 8px 15px;
+  word-wrap: break-word;
+  border-radius: 2px;
+  color: #000000d9;
+  font-size: 14px;
+}
+
+.app__form {
+  display: grid;
+  grid-template-columns: minmax(500px, auto);
+  grid-template-rows: minmax(250px, auto);
+  background-color: white;
+  border-radius: 10px;
+}
+
+.app__form__control {
+  display: grid;
+  padding: 10px;
+  gap: 10px;
+  border: none;
+}
+
+.app__form__control h1 {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.app__form__control input {
+  border-radius: 5px;
+  border: 1px black solid;
+  padding: 5px;
+}

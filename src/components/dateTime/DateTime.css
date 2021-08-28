@@ -1,0 +1,79 @@
+.dateTime {
+}
+
+.dateTime_items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 83px 1fr 1fr;
+  grid-template-rows: 84px;
+  column-gap: 10px;
+}
+.dateTime_item {
+  display: grid;
+  grid-template-rows: 26px 1fr;
+}
+
+.dateTime_item__input {
+  display: grid;
+  grid-template-columns: 1fr 25px 0;
+  grid-template-rows: 58px;
+
+  outline: none;
+  border: 1px solid #cdb1fb;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 100%;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.dateTime_item__input input {
+  border: none;
+  right: 10px;
+}
+
+.dateTime_items i {
+  max-width: 55px;
+  min-width: 15px;
+  height: 2px;
+  margin: 0 14px;
+  display: grid;
+  align-self: end;
+  margin-bottom: 30px;
+
+  background: #cdb1fb;
+  border-radius: 5px;
+}
+.dateTime_item svg {
+  display: grid;
+  align-self: center;
+  cursor: pointer;
+}
+.dateTime_item__clock {
+  display: grid;
+  align-self: center;
+  cursor: pointer;
+  color: #9b63f8;
+}
+.dateTime_button {
+  width: 182px;
+  height: 58px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  background-color: white;
+  margin-top: 30px;
+  cursor: pointer;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  border: 1px solid #9b63f8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.dateTime_button:hover {
+  border: 1px solid midnightblue;
+}
